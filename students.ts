@@ -21,6 +21,13 @@ class Student {
     public setFirstName(first_name: string){
         this.firstname = first_name;
     }
+    //Last NAME
+    public getLastName():string{
+        return this.lastname;
+     }
+     public setLastName(last_name: string):void{
+         this.lastname = last_name;
+     }
         //ID
     public getID():number{
         return this.id;
